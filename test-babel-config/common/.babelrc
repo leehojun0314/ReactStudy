@@ -1,0 +1,12 @@
+{
+	"presets": ["@babel/preset-react"],
+	"plugins": [
+		[
+			//플러그인에 옵션을 설정할 때는 배열로 만들어서 두 번째 자리에 옵션을 넣는다.
+			"@babel/plugin-transform-template-literals",
+			{
+				"loose": true //문자열을 연결할 때 concat 메서드 대신 +연산자를 사용
+			}
+		]
+	]
+}
